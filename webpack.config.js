@@ -36,7 +36,6 @@ module.exports = (env, argv) => {
     config.devServer = {
       historyApiFallback: true,
       contentBase       : path.join(__dirname,'public'),
-
       host              : '0.0.0.0',
       port              : 8081,
       watchOptions      : {
